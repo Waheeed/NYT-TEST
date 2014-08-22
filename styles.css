@@ -1,0 +1,80 @@
+body{
+  background: #eee;
+}
+
+.container {
+  position:relative;
+  height: 120em;
+  width: 80%;
+  top:0;
+  bottom:0;
+  background: #fff;
+  margin: 0 auto;
+
+  box-shadow: -1px 0px 4px 0px #E2E2E2;
+
+}
+.img {
+  display:block;
+
+  margin: 0 auto;
+}
+
+.article{
+  position:absolute;
+  margin: 5em 35em 15em 15em;
+  background: yellow;
+}
+
+.article p {
+  font-family: georgia;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+.c_bot  {
+  position:absolute;
+  bottom:0%;
+  right:10%;
+  height:300px;
+  width:80%;
+
+  background: #eee;
+
+}
+
+.bar {
+  position:fixed;
+  width:80%;
+  height:80px;
+  background: #fff;
+  right:10%;
+  top:-1px;
+  z-index:1;
+box-shadow: -1px 0px 4px 0px #E2E2E2;
+
+}
+.suggestion  {
+  position:absolute;
+  bottom:0;
+  width: 70%;
+  height: 50%;
+  background: #999;
+}
+
+.topnews  {
+  position:absolute;
+  background: #888;
+  top:0;
+  width:70%;
+  height:50%;
+}
+.mailed {
+  position:absolute;
+  width:30%;
+  top:0;
+  right:0;
+  height:100%;
+  background: #777;
+
+}
